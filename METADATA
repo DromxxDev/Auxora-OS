@@ -1,0 +1,5 @@
+name: "Auxora OS"
+description: "Auxora automotive system product layer"
+third_party {
+  license_type: NOTICE
+}
