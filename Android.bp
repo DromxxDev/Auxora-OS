@@ -1,0 +1,11 @@
+android_app {
+    name: "AuxoraOS",
+    manifest: "app/src/main/AndroidManifest.xml",
+    srcs: ["app/src/main/java/**/*.kt"],
+    resource_dirs: ["app/src/main/res"],
+    platform_apis: true,
+    certificate: "platform",
+    privileged: true,
+    optimize: { enabled: true },
+    kotlincflags: ["-language-version", "2.0"],
+}
